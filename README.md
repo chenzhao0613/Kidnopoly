@@ -3,11 +3,11 @@
 ### Class
 ----------
 
-| Land          | Player        | Scoreboard  |
-| ------------- |:-------------:| -----:|
-| col           | Name          | Score |
-| row           | Party         |
-| value         | Money         |    $1 |
-| string holder | Current Place |       |
+| Land          | Player        | Scoreboard  | Hints | Quiz  |
+| ------------- |:-------------:| -----:|     | Hints | Quiz  |
+| col           | Name          | Score |     |       | Answer|
+| row           | Party         |       |     |       | Score |
+| value         | Money         |       |     |       | Level |
+| string holder | Current Place |       |     |       |       |
 | color         |               |       |
 
