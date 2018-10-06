@@ -5,7 +5,9 @@
 
 | Land          | Player        | Scoreboard  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col           | right-aligned | $1600 |
+| row           | centered      |   $12 |
+| value         | are neat      |    $1 |
+| string holder |               |       |
+| color         |               |       |
 
