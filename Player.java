@@ -5,6 +5,8 @@
  */
 package Kidnopoly;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Administrator
@@ -36,20 +38,7 @@ public class Player {
         this.name = name;
     }
     
-    public int getRow()
-    {
-        return row;
-    }
-    
-    public int getCol()
-    {
-        return col;
-    }
-    
-    
-    
-    
-    public void setPlace(int col, int row)
+    public void setPlace(int row, int col)
     {
         this.col = col;
         this.row = row;
@@ -57,11 +46,33 @@ public class Player {
     
     public void lucky_3()    //get back to the Start land and take extra money
     {
-        col = 0;
-        row = 7;
+        col = 7;
+        row = 5;
     }
     
-    
+    public void Move(int row, int col, int n)
+    {
+        for(int i=0; i<n;i++)
+        {
+        if(this.row==5&&this.col>0)
+            this.col--;
+        else if(this.row==5&&this.col==0)
+            this.row--;
+        else if(this.row>0&&this.row<5&&this.col==0)
+            this.row--;
+        else if(this.row==0&&this.col==0)
+            this.col++;
+        else if(this.row==0&&this.col>0&&this.col<7)
+            this.col++;
+        else if(this.row==0 && this.col==7)
+            this.row++;
+        else if(this.row>0&&this.row<5&&this.col==7)
+            this.col++;
+        else if(this.row==5&&this.col==7)
+            this.col--;
+        }
+       // JOptionPane.showMessageDialog(null, "","Kidsnopoly", JOptionPane.INFORMATION_MESSAGE); 
+    }
     
     
 }

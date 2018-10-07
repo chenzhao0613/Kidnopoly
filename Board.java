@@ -30,11 +30,5 @@ public class Board {
         this.position[row][col]=land;
     }
     
-    
-    
-    
-    
-    
-    
-    
+  
 }

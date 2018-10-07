@@ -5,12 +5,17 @@
  */
 
 package Kidnopoly;
+
+/**
+ *
+ * @author Administrator
+ */
 import javax.swing.JComponent;
 /**
  *
  * @author Administrator
  */
-public class Land extends JComponent{
+public class Land {
     public int value;
     public String landName;
     public int row,col;
@@ -26,11 +31,6 @@ public class Land extends JComponent{
         this.col = col;
         this.player = null;
         this.team = 0;
-     }
-     
-     public int getValue()
-     {
-         return value;
      }
      
      public void setPlayer(Player player)
@@ -49,5 +49,21 @@ public class Land extends JComponent{
          this.player = player;
      }
     
+     public int getValue()
+     {
+         return value;
+     }
+     
     
 }
+
+     
+     
+      
+    
+    
+    /**
+     * @param args the command line arguments
+     */
+    
+
